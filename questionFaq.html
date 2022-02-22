@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--bootstrap-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <!--font Icon-->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+
+    <!--animate css-->
+    <link rel="stylesheet" href="./css/animate.css" />
+
+    <!--select css-->
+    <link rel="stylesheet" href="./css/bootstrap-select.min.css" />
+
+    <!--main css-->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>الأسئلة</title>
+  </head>
+  <body class="arabic_version">
+    <!--main header-->
+    <section>
+      <!--first header-->
+      <header class="first_header bg-light sticky">
+        <div class="container pl-md-0">
+          <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <a
+              class="navbar-brand first_logo m-0 d-none d-md-none d-lg-block"
+              href="#"
+              ><img src="./img/Photo/logo2.png" class="img-fluid" alt="" />
+            </a>
+
+            <div>
+              <ul class="navbar-nav center_div">
+                <li class="nav-item">
+                  <a
+                    class="nav-link login-button"
+                    href="#"
+                    data-toggle="modal"
+                    data-target="#loginModal"
+                    >تسجيل دخول</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link register-button"
+                    href="#"
+                    data-toggle="modal"
+                    data-target="#registerModal"
+                    >طلب ترخيص</a
+                  >
+                </li>
+                <li class="nav-item language-button">
+                  <a class="nav-link" href="./questionFaq-en.html"></a>
+                </li>
+                <li class="nav-item search-button">
+                  <a class="nav-link" href="./search.html"></a>
+                </li>
+              </ul>
+            </div>
+            <a class="navbar-brand second_logo mr-auto" href="#"
+              ><img src="./img/Photo/logo1.png" class="img-fluid" alt="" />
+            </a>
+          </nav>
+        </div>
+      </header>
+      <!--first header-->
+
+      <!--second header-->
+      <header class="second_header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="toggler-icon top-bar"></span>
+              <span class="toggler-icon middle-bar"></span>
+              <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse stic" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown bg_green">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    عن الوحدة
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div
+                    class="dropdown-menu first_menu"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <a class="dropdown-item" href="#">نبذه عن الوحدة</a>
+                    <a class="dropdown-item" href="#"
+                      >الرسالة و الرؤية و الأهداف</a
+                    >
+
+                    <a class="dropdown-item" href="#"
+                      >الهيكل التنظيمي والوظيفي للوحدة</a
+                    >
+                    <a class="dropdown-item" href="#">رؤساء الوحدة</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    اللوائح والمنشورات
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div
+                    class="dropdown-menu first_menu"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <a class="dropdown-item" href="#">اللوائح </a>
+
+                    <div class="dropdown drop-down2">
+                      <a
+                        class="dropdown-item dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        المنشورات
+                        <i class="fas fa-chevron-left"></i>
+                        <i class="fas fa-plus"></i>
+                      </a>
+                      <div
+                        class="dropdown-menu sub-menu2"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <a class="dropdown-item" href="#">المنشورات السارية</a>
+                        <a class="dropdown-item" href="#">أرشيف المنشورات</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    السياسات
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div
+                    class="dropdown-menu first_menu"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <a class="dropdown-item" href="#">سياسة 1</a>
+                    <a class="dropdown-item" href="#">سياسة 2</a>
+
+                    <a class="dropdown-item" href="#">سياسة 3</a>
+                    <a class="dropdown-item" href="#">سياسة 4</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    مؤشرات آداء القطاع
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div
+                    class="dropdown-menu first_menu"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <a class="dropdown-item" href="#">المؤشرات المالية</a>
+                    <a class="dropdown-item" href="#">مؤشرات....</a>
+
+                    <a class="dropdown-item" href="#">مؤشرات....</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!--second header-->
+    </section>
+    <!--main header-->
+
+    <!--question section-->
+    <section class="search my-4">
+      <div class="container px-md-0">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <h3 class="font-weight-bold wow fadeInLeft">الأسئلة المتكررة</h3>
+            <p class="mb-4 wow fadeInLeftBig">لوريم إيبسوم هو ببساطة نص شكل</p>
+            <hr class="question_hr" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--question section-->
+
+    <!--question FAQ section-->
+    <section class="question_FAQ my-3 px-2">
+      <div class="container pr-md-0 pl-md-4">
+        <div class="row pr-md-3 mb-4 wow bounceInUp" data-wow-duration="2s">
+          <div class="col-12 mb-2 p-0">
+            <h6 class="font-weight-bold">
+              الأسئلة المتكررة حول إستراتيجية التمويل الأصغر:
+            </h6>
+            <p class="text-muted small mb-4">
+              هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+              سيلهي القارئ عن التركيز على الشكل الخارجي للنص
+            </p>
+          </div>
+          <div class="col-12 box p-0 mb-4">
+            <div class="accordion" id="accordionExample">
+              <div
+                class="
+                  faq_button
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+                type="button"
+                data-toggle="collapse"
+                data-target="#question1"
+                aria-expanded="true"
+                aria-controls="question1"
+              >
+                <div class="faq_question_text py-2 px-3">
+                  <p class="mb-0 user-select-none small">
+                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم؟
+                  </p>
+                </div>
+                <div class="faq_question_icon bg_green text-white py-2 px-3">
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+              </div>
+              <div
+                id="question1"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#question1"
+              >
+                <div class="py-4 p-3">
+                  <p class="mb-0 small text-muted inside_faq_text">
+                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+                    ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل
+                    توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة
+                    لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف
+                    عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي"
+                    فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح
+                    النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم
+                    بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum"
+                    في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في
+                    نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص
+                    لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال
+                    بعض العبارات الفكاهية إليها.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 box p-0 mb-4">
+            <div class="accordion" id="accordionExample">
+              <div
+                class="
+                  faq_button
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+                type="button"
+                data-toggle="collapse"
+                data-target="#question2"
+                aria-expanded="true"
+                aria-controls="question2"
+              >
+                <div class="faq_question_text py-2 px-3">
+                  <p class="mb-0 user-select-none small">
+                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
+                    الغالبية؟
+                  </p>
+                </div>
+                <div class="faq_question_icon bg_green text-white py-2 px-3">
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+              </div>
+              <div
+                id="question2"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#question2"
+              >
+                <div class="py-4 p-3">
+                  <p class="mb-0 small text-muted inside_faq_text">
+                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+                    ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل
+                    توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة
+                    لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف
+                    عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي"
+                    فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح
+                    النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم
+                    بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum"
+                    في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في
+                    نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص
+                    لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال
+                    بعض العبارات الفكاهية إليها.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 box p-0 mb-4">
+            <div class="accordion" id="accordionExample">
+              <div
+                class="
+                  faq_button
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+                type="button"
+                data-toggle="collapse"
+                data-target="#question3"
+                aria-expanded="true"
+                aria-controls="question3"
+              >
+                <div class="faq_question_text py-2 px-3">
+                  <p class="mb-0 user-select-none small">
+                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
+                    الغالبية؟
+                  </p>
+                </div>
+                <div class="faq_question_icon bg_green text-white py-2 px-3">
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+              </div>
+              <div
+                id="question3"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#question3"
+              >
+                <div class="py-4 p-3">
+                  <p class="mb-0 small text-muted inside_faq_text">
+                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+                    ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل
+                    توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة
+                    لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف
+                    عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي"
+                    فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح
+                    النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم
+                    بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum"
+                    في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في
+                    نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص
+                    لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال
+                    بعض العبارات الفكاهية إليها.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 box p-0 mb-4">
+            <div class="accordion" id="accordionExample">
+              <div
+                class="
+                  faq_button
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+                type="button"
+                data-toggle="collapse"
+                data-target="#question4"
+                aria-expanded="true"
+                aria-controls="question4"
+              >
+                <div class="faq_question_text py-2 px-3">
+                  <p class="mb-0 user-select-none small">
+                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
+                    الغالبية؟
+                  </p>
+                </div>
+                <div class="faq_question_icon bg_green text-white py-2 px-3">
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+              </div>
+              <div
+                id="question4"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#question4"
+              >
+                <div class="py-4 p-3">
+                  <p class="mb-0 small text-muted inside_faq_text">
+                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+                    ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل
+                    توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة
+                    لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف
+                    عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي"
+                    فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح
+                    النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم
+                    بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum"
+                    في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في
+                    نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص
+                    لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال
+                    بعض العبارات الفكاهية إليها.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 box p-0 mb-4">
+            <div class="accordion" id="accordionExample">
+              <div
+                class="
+                  faq_button
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+                type="button"
+                data-toggle="collapse"
+                data-target="#question5"
+                aria-expanded="true"
+                aria-controls="question5"
+              >
+                <div class="faq_question_text py-2 px-3">
+                  <p class="mb-0 user-select-none small">
+                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
+                    الغالبية؟
+                  </p>
+                </div>
+                <div class="faq_question_icon bg_green text-white py-2 px-3">
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+              </div>
+              <div
+                id="question5"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#question5"
+              >
+                <div class="py-4 p-3">
+                  <p class="mb-0 small text-muted inside_faq_text">
+                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+                    ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل
+                    توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة
+                    لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف
+                    عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي"
+                    فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح
+                    النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم
+                    بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum"
+                    في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في
+                    نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص
+                    لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال
+                    بعض العبارات الفكاهية إليها.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pr-3 mb-4 wow bounceInUp" data-wow-duration="2s">
+          <div class="col-12 mb-2 p-0">
+            <h6 class="font-weight-bold">
+              الأسئلة المتكررة حول إستراتيجية التمويل الأصغر:
+            </h6>
+            <p class="text-muted small mb-4">
+              هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+              سيلهي القارئ عن التركيز على الشكل الخارجي للنص
+            </p>
+          </div>
+          <div class="col-12 box p-0 mb-4">
+            <div class="accordion" id="accordionExample">
+              <div
+                class="
+                  faq_button
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+                type="button"
+                data-toggle="collapse"
+                data-target="#question6"
+                aria-expanded="true"
+                aria-controls="question6"
+              >
+                <div class="faq_question_text py-2 px-3">
+                  <p class="mb-0 user-select-none small">
+                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم؟
+                  </p>
+                </div>
+                <div class="faq_question_icon bg_green text-white py-2 px-3">
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+              </div>
+              <div
+                id="question6"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#question6"
+              >
+                <div class="py-4 p-3">
+                  <p class="mb-0 small text-muted inside_faq_text">
+                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+                    ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل
+                    توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة
+                    لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف
+                    عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي"
+                    فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح
+                    النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم
+                    بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum"
+                    في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في
+                    نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص
+                    لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال
+                    بعض العبارات الفكاهية إليها.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 box p-0 mb-4">
+            <div class="accordion" id="accordionExample">
+              <div
+                class="
+                  faq_button
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+                type="button"
+                data-toggle="collapse"
+                data-target="#question7"
+                aria-expanded="true"
+                aria-controls="question7"
+              >
+                <div class="faq_question_text py-2 px-3">
+                  <p class="mb-0 user-select-none small">
+                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
+                    الغالبية؟
+                  </p>
+                </div>
+                <div class="faq_question_icon bg_green text-white py-2 px-3">
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+              </div>
+              <div
+                id="question7"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#question7"
+              >
+                <div class="py-4 p-3">
+                  <p class="mb-0 small text-muted inside_faq_text">
+                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+                    ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل
+                    توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة
+                    لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف
+                    عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي"
+                    فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح
+                    النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم
+                    بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum"
+                    في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في
+                    نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص
+                    لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال
+                    بعض العبارات الفكاهية إليها.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 box p-0 mb-4">
+            <div class="accordion" id="accordionExample">
+              <div
+                class="
+                  faq_button
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+                type="button"
+                data-toggle="collapse"
+                data-target="#question8"
+                aria-expanded="true"
+                aria-controls="question8"
+              >
+                <div class="faq_question_text py-2 px-3">
+                  <p class="mb-0 user-select-none small">
+                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
+                    الغالبية؟
+                  </p>
+                </div>
+                <div class="faq_question_icon bg_green text-white py-2 px-3">
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+              </div>
+              <div
+                id="question8"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#question8"
+              >
+                <div class="py-4 p-3">
+                  <p class="mb-0 small text-muted inside_faq_text">
+                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+                    ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل
+                    توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة
+                    لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف
+                    عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي"
+                    فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح
+                    النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم
+                    بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum"
+                    في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في
+                    نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص
+                    لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال
+                    بعض العبارات الفكاهية إليها.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 box p-0 mb-4">
+            <div class="accordion" id="accordionExample">
+              <div
+                class="
+                  faq_button
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+                type="button"
+                data-toggle="collapse"
+                data-target="#question9"
+                aria-expanded="true"
+                aria-controls="question9"
+              >
+                <div class="faq_question_text py-2 px-3">
+                  <p class="mb-0 user-select-none small">
+                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
+                    الغالبية؟
+                  </p>
+                </div>
+                <div class="faq_question_icon bg_green text-white py-2 px-3">
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+              </div>
+              <div
+                id="question9"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#question9"
+              >
+                <div class="py-4 p-3">
+                  <p class="mb-0 small text-muted inside_faq_text">
+                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+                    ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل
+                    توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة
+                    لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف
+                    عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي"
+                    فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح
+                    النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم
+                    بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum"
+                    في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في
+                    نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص
+                    لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال
+                    بعض العبارات الفكاهية إليها.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 box p-0 mb-4">
+            <div class="accordion" id="accordionExample">
+              <div
+                class="
+                  faq_button
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+                type="button"
+                data-toggle="collapse"
+                data-target="#question10"
+                aria-expanded="true"
+                aria-controls="question10"
+              >
+                <div class="faq_question_text py-2 px-3">
+                  <p class="mb-0 user-select-none small">
+                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
+                    الغالبية؟
+                  </p>
+                </div>
+                <div class="faq_question_icon bg_green text-white py-2 px-3">
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+              </div>
+              <div
+                id="question10"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#question10"
+              >
+                <div class="py-4 p-3">
+                  <p class="mb-0 small text-muted inside_faq_text">
+                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+                    ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل
+                    توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة
+                    لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف
+                    عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي"
+                    فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح
+                    النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم
+                    بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum"
+                    في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في
+                    نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص
+                    لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال
+                    بعض العبارات الفكاهية إليها.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--question FAQ section-->
+
+    <!--contact footer-->
+    <section class="contact_footer bg_green py-2">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4 col-sm-6 mb-sm-3 mb-md-0 mb-lg-0">
+            <a href="#">
+              <img src="./img/Photo/phone-icon.png" class="img-fluid" alt="" />
+              <span>000000000</span>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-sm-3 mb-md-0 mb-lg-0">
+            <a href="#">
+              <img src="./img/Photo/email-icon.png" class="img-fluid" alt="" />
+              <span>example@mail.com</span>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <a href="#">
+              <img
+                src="./img/Photo/location-icon.png"
+                class="img-fluid"
+                alt=""
+              />
+              <span>street 1-1</span>
+            </a>
+          </div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </section>
+    <!--contact footer-->
+
+    <!--footer-->
+    <footer class="main_footer py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <aside class="footer_wedgit">
+              <ul>
+                <li>
+                  <a href="">قانون بنك السودان المركزي</a>
+                </li>
+                <li>
+                  <a href="">قانون تنظيم العمل المصرفي</a>
+                </li>
+                <li>
+                  <a href="">معرض الصور</a>
+                </li>
+              </ul>
+            </aside>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <aside class="footer_wedgit">
+              <ul>
+                <li>
+                  <a href="">حقوق النشر وحدود المسؤولية</a>
+                </li>
+                <li>
+                  <a href="">مواقع ذات صلة</a>
+                </li>
+                <li>
+                  <a href="">الشكاوي والاقتراحات</a>
+                </li>
+              </ul>
+            </aside>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <aside class="footer_wedgit">
+              <ul>
+                <li>
+                  <a href="">الأخبار</a>
+                </li>
+                <li>
+                  <a href="">النشرة البريدية</a>
+                </li>
+                <li>
+                  <a href="">الأسئلة المتكررة</a>
+                </li>
+              </ul>
+            </aside>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <aside class="footer_wedgit">
+              <address>
+                <h5>تواصل معنا</h5>
+                <p>هناك حقيقة مثبتة منذ زمن طويل وهي.</p>
+                <form>
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control form-control-sm bg-light border-1"
+                      placeholder="البريد الالكتروني"
+                      aria-label="Example text with button addon"
+                      aria-describedby="button-addon1"
+                    />
+                    <div class="input-group-prepend">
+                      <button
+                        class="btn btn-outline-secondary btn-sm"
+                        type="submit"
+                        id="button-addon1"
+                      ></button>
+                    </div>
+                  </div>
+                </form>
+                <div class="social">
+                  <a href="" class="icon"><i class="fab fa-facebook-f"></i></a>
+                  <a href="" class="icon"><i class="fab fa-instagram"></i></a>
+                  <a href="" class="icon"><i class="fab fa-twitter"></i></a>
+                </div>
+              </address>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--footer-->
+
+    <!--copy right footer-->
+    <section class="copy py-2">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <p class="small m-0">
+              طوّر بواسطة <span><a href="#">dot.jo</a></span> جميع الحقوق محفوظة
+              © 2021
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--copy right footer-->
+
+    <!--logIn modal-->
+    <div
+      class="modal fade"
+      id="loginModal"
+      tabindex="-1"
+      aria-labelledby="loginModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center">
+              <div class="col-8 text-center user_row">
+                <div class="user_img mx-auto mb-3">
+                  <i class="far fa-user"></i>
+                </div>
+
+                <h5>تسجيل دخول</h5>
+                <p class="text-muted small">
+                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم:
+                </p>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-10">
+                <form>
+                  <div class="mb-3">
+                    <label class="small">اسم االمستخدم</label>
+                    <input type="text" class="form-control" required />
+                  </div>
+                  <div class="mb-3">
+                    <label class="small">كلمه السر</label>
+                    <input type="password" class="form-control" required />
+                  </div>
+                  <div class="mb-3">
+                    <div class="row">
+                      <div class="col-6 d-flex align-items-center">
+                        <input type="checkbox" id="check" />
+                        <label for="check" class="mb-0 mr-2">تذكرني</label>
+                      </div>
+                      <div class="col-6 d-flex justify-content-end">
+                        <input
+                          type="submit"
+                          class="log_in"
+                          value="تسجيل دخول"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                </form>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-10">
+                <p class="small pass_forget mt-2">
+                  هل نسيت كلمة السر؟ <a href="#"> إسترجاع كلمة المرور </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Register modal-->
+    <div
+      class="modal fade"
+      id="registerModal"
+      tabindex="-1"
+      aria-labelledby="registerModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center">
+              <div class="col-8 text-center user_row mb-0">
+                <div class="user_img mx-auto mb-3">
+                  <i class="far fa-user"></i>
+                </div>
+
+                <h5>إنشاء حساب</h5>
+                <p class="text-muted small mb-0">
+                  أدخل المعلومات الخاصة بك أدناه
+                </p>
+              </div>
+              <div class="col-10 mt-0 justify-content-center text-center">
+                <hr class="" />
+              </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-10">
+                <form>
+                  <div class="mb-2">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label class="small">اسم المستخدم الأول</label>
+                        <input
+                          type="text"
+                          class="form-control form-control-sm"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <label class="small">اسم المستخدم الثاني</label>
+                        <input
+                          type="text"
+                          class="form-control form-control-sm"
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-2">
+                    <label class="small">البريد الإلكتروني</label>
+                    <input
+                      type="email"
+                      class="form-control form-control-sm"
+                      required
+                    />
+                  </div>
+                  <div class="mb-2">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label class="small">البلد</label>
+                        <input
+                          type="text"
+                          class="form-control form-control-sm"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <label class="small">المدينة</label>
+                        <input
+                          type="text"
+                          class="form-control form-control-sm"
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label class="small">كلمه السر</label>
+                    <input
+                      type="password"
+                      class="form-control form-control-sm"
+                      required
+                    />
+                  </div>
+                  <div class="mb-2">
+                    <div class="row">
+                      <div class="col-6 d-flex align-items-center">
+                        <input type="checkbox" id="check" />
+                        <label for="check" class="mb-0 mr-2 small"
+                          >أوافق على جميع الشروط والأحكام</label
+                        >
+                      </div>
+                      <div class="col-6 d-flex justify-content-end">
+                        <input
+                          type="submit"
+                          class="log_in"
+                          value="إنشاء حساب"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--sticky icon-->
+    <ul class="sticky_icons wow fadeInUp d-none d-md-block">
+      <li class="mb-5 bg_green box">
+        <a href="#" class="stick_icon"><i class="fas fa-wheelchair"></i></a>
+      </li>
+      <li class="mb-2 bg_green box">
+        <a href="#" class="stick_icon text-white">
+          <i class="fas fa-envelope-open-text"></i>
+        </a>
+      </li>
+      <li class="mb-2 bg_green box">
+        <a href="#" class="stick_icon text-white">
+          <i class="fas fa-file-alt"></i>
+        </a>
+      </li>
+      <li class="mb-2 bg_green box">
+        <a href="#" class="stick_icon text-white">
+          <i class="fas fa-headphones-alt"></i>
+        </a>
+      </li>
+      <li class="mb-2 bg_green box">
+        <a href="#" class="stick_icon text-white">
+          <i class="fas fa-fax"></i>
+        </a>
+      </li>
+    </ul>
+    <!--sticky icon-->
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/dropdown.js"></script>
+    <script src="./js/toggler.js"></script>
+    <script src="./js/animate.js"></script>
+    <script src="./js/bootstrap-select.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".faq_button").click(function () {
+          $(this).each(function (i) {
+            $(this).toggleClass("green_collaps");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

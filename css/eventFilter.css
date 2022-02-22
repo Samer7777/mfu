@@ -1,0 +1,16 @@
+:root {
+  --main-color: #83ad5b;
+  --second-color: #7b7b7b;
+  --text-color: #374767;
+  --transitin: 0.3s ease;
+  --box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.eventfilter .card i {
+  color: var(--main-color);
+  font-size: 18px;
+}
+.banner.event_banner {
+  background: url("../img/Photo/banner2.jpeg");
+  background-position: center;
+  background-size: cover;
+}

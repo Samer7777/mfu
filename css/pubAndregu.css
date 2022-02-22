@@ -1,0 +1,46 @@
+:root {
+  --main-color: #83ad5b;
+  --second-color: #7b7b7b;
+  --text-color: #374767;
+  --transitin: 0.3s ease;
+  --box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.pdf_cards .box {
+  border-radius: 0;
+  box-shadow: none;
+  transition: var(--transitin);
+  cursor: pointer;
+}
+.pdf_cards .box:hover {
+  box-shadow: var(--box-shadow);
+  transform: translateY(-10px);
+}
+.pdf_cards .box .pdf_btn {
+  border: 1px solid var(--main-color);
+  padding: 6px 25px;
+  border-radius: 0;
+  color: var(--main-color);
+  transition: var(--transitin);
+}
+.pdf_cards .box .small {
+  font-weight: 500;
+}
+.pdf_cards .box i {
+  color: red;
+  font-size: 54px;
+}
+.pdf_cards .box img {
+  max-width: 55px;
+  margin: auto;
+}
+.pdf_cards .box .pdf_btn:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+.filter_section .form.text {
+  margin-top: -57px;
+  border-right: 5px solid var(--main-color);
+}
+.filter_section .form.text p {
+  font-size: 15px;
+}

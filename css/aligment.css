@@ -1,0 +1,14 @@
+@media (min-width: 991px) {
+  .English_version .second_header .container,
+  .English_version .banner .container,
+  .English_version footer .container {
+    padding-left: 0;
+  }
+  .first_header .container,
+  .second_header .container,
+  .banner .container,
+  footer .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}

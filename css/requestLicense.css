@@ -1,0 +1,142 @@
+:root {
+  --main-color: #83ad5b;
+  --second-color: #7b7b7b;
+  --text-color: #374767;
+  --transitin: 0.3s ease;
+  --box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.request_license .first_row {
+  margin-top: -30px;
+  background-color: transparent;
+  z-index: 1000;
+  position: relative;
+}
+.request_license .first_row .button_div .bg_green svg {
+  width: 100%;
+}
+.third_row .number {
+  border: 1px solid var(--main-color);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.third_row .number h4 {
+  margin-bottom: 0px;
+  color: var(--main-color);
+}
+.third_row .card-img-top {
+  min-height: 210px;
+  max-height: 210px;
+}
+.icon_rotate_style .icon_rotate {
+  background-color: #374767 !important;
+  transition: var(--transitin);
+}
+.icon_rotate_style svg {
+  transform: rotate(45deg);
+  transition: var(--transitin);
+}
+.icon_rotate svg {
+  transition: var(--transitin);
+}
+.add_button {
+  background: #fff;
+  color: var(--main-color) !important;
+  border: 1px solid var(--main-color);
+  transition: none;
+  display: inline-block;
+}
+.file input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  background-color: var(--main-color);
+  color: #fff;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.fa-paperclip {
+  transform: rotate(-45deg);
+}
+.selectpicker {
+  border-radius: 0;
+  border: 1px solid #ccc;
+  text-align: right;
+}
+.third_row .btn.dropdown-toggle.btn-light {
+  border-radius: 0;
+  border: 1px solid #ced4da;
+}
+.third_row .bootstrap-select .dropdown-toggle .filter-option {
+  text-align: right;
+}
+.third_row form .box ::placeholder {
+  font-size: 10px;
+}
+.third_row .progress_step {
+  position: relative;
+}
+@media (max-width: 991px) {
+  .progress_step .progress,
+  .progress_step .progress_2 {
+    display: none;
+  }
+}
+.progress_step .progress {
+  position: absolute;
+  height: 3px;
+  width: 278px;
+  background-color: #ccc;
+  top: 23px;
+  transition: var(--transitin);
+  right: 188px;
+}
+.third_row .progress_step .progress_2 {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 278px;
+  background-color: #ccc;
+  top: 23px;
+  left: 188px;
+  transition: var(--transitin);
+}
+.progress_step .first:hover .number h4,
+.progress_step .second:hover .number h4,
+.progress_step .third:hover .number h4 {
+  color: #ffff;
+}
+.progress_step .first:hover .card,
+.progress_step .second:hover .card,
+.progress_step .third:hover .card {
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+}
+
+.progress_step .first:hover .first_step,
+.progress_step .first:hover .first_step h4 {
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+.progress_step .second:hover ~ .progress,
+.progress_step .second:hover .second_step {
+  background-color: var(--main-color) !important;
+}
+.progress_step .third:hover ~ .progress,
+.progress_step .third:hover ~ .progress_2,
+.progress_step .third:hover .third_step {
+  background-color: var(--main-color) !important;
+}
+.button_row .login-button {
+  background-color: var(--main-color);
+  color: #fff;
+}
+.button_row .register-button {
+  background-color: var(--text-color);
+  color: #fff;
+}

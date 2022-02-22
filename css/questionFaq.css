@@ -1,0 +1,38 @@
+:root {
+  --main-color: #83ad5b;
+  --second-color: #7b7b7b;
+  --text-color: #374767;
+  --transitin: 0.3s ease;
+  --box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.box-2 {
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.question_FAQ .box {
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+.question_hr {
+  position: relative;
+  margin-top: 30px;
+}
+.question_hr::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -100%;
+  width: 40%;
+  height: 3px;
+  background-color: var(--main-color);
+}
+.inside_faq_text {
+  line-height: 1.8;
+}
+.green_collaps {
+  background-color: var(--main-color);
+  color: #fff;
+  transition: var(--transitin);
+}
+.green_collaps i {
+  transform: rotate(180deg);
+  transition: var(--transitin);
+}

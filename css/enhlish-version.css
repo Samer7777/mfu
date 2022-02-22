@@ -1,0 +1,172 @@
+.English_version {
+  direction: ltr;
+  text-align: left;
+}
+.English_version .img_text p {
+  font-size: 11px;
+  margin-bottom: 14px;
+}
+.English_version .img_text h4 {
+  font-size: 12px;
+}
+.English_version #navbarNav .dropdown-menu {
+  left: 0;
+  right: auto;
+  text-align: left;
+}
+.English_version #navbarNav .dropdown-item:hover {
+  border-right: 2px solid #ddd;
+  border-left: 2px solid var(--main-color);
+  padding-left: 8px;
+}
+.English_version #navbarNav .dropdown-item i {
+  margin-right: 0px;
+  margin-left: 77px;
+}
+.English_version #navbarNav .drop-down2 .sub-menu2 {
+  right: auto;
+  left: 100%;
+}
+.English_version .fixed_2 {
+  right: 23.6%;
+}
+.English_version .navbar-light .navbar-brand {
+  margin-right: -17px;
+}
+.English_version .first_header .nav-item:first-child {
+  margin: 0 5px;
+}
+.English_version .first_header .language-button {
+  background-position: -1px -40px;
+}
+.English_version .first_header .language-button:hover {
+  background-position: -40px -40px;
+}
+.English_version .sticky_icons {
+  right: auto;
+  left: 0;
+}
+.English_version
+  .filter_section
+  .bootstrap-select
+  .dropdown-toggle
+  .filter-option,
+.English_version .filter_section .dropdown-menu.show {
+  text-align: left;
+}
+.filter_section .dropdown-menu.show {
+  padding: 0 0px;
+}
+.filter_section .dropdown-menu.show li {
+  padding: 0 7px;
+}
+.English_version .first_header .center_div_d-none .nav-item:first-child {
+  margin: 0 5px 0 0;
+}
+.English_version #carouselExampleCaptions {
+  direction: ltr;
+}
+.English_version .home .carousel-caption {
+  right: auto;
+  left: 13.6%;
+  text-align: left;
+}
+.English_version .more_button,
+.English_version .white_more_button {
+  border-bottom-right-radius: 52px;
+  border-bottom-left-radius: 0px;
+  padding: 10px 51px 10px 41px;
+}
+.list-group-item {
+  font-size: 15px;
+  background-color: transparent;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+#list-tab {
+  background: #f7f7f7;
+}
+.English_version .content .list_img::before {
+  margin-right: 0;
+  margin-left: -14px;
+}
+.English_version .img_2x2 {
+  margin-right: -100px;
+  margin-left: 0;
+}
+.English_version .more-news {
+  left: 35px;
+  right: auto;
+}
+.English_version .carsouel .carousel-indicators {
+  right: 50%;
+  left: auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+.English_version .second_row_managers .card .card-body {
+  height: auto;
+}
+.English_version .question_hr::after {
+  right: auto;
+  left: 0;
+}
+.English_version .button_div .user-select-none {
+  font-size: 16px;
+}
+.English_version .third_row .card-body {
+  padding: 0.5rem;
+}
+.English_version .filter-option-inner {
+  text-align: left;
+}
+
+@media (min-width: 1300px) {
+  .English_version .second_caption {
+    width: 62% !important;
+    margin-left: auto !important;
+    padding: 8px 0px 30px 50px !important;
+    margin-left: 0;
+  }
+}
+@media (max-width: 991px) {
+  .English_version #navbarNav .nav-link i {
+    left: auto;
+    right: 10px;
+  }
+  .English_version .fixed_2 {
+    right: 0;
+    padding: 0 20px;
+  }
+  .English_version .navbar-light .navbar-toggler {
+    left: 8%;
+    right: auto;
+  }
+  .English_version .first_header .language-button {
+    background-position: -2px -32px;
+  }
+  .English_version .first_header .language-button:hover {
+    background-position: -34px -32px;
+  }
+}
+@media (max-width: 567px) {
+  .navbar-light .navbar-toggler {
+    left: 1%;
+  }
+  .English_version .navbar-light .navbar-brand {
+    margin-right: -5px;
+  }
+  .English_version .navbar-light .navbar-toggler {
+    left: 3%;
+    right: auto;
+  }
+}
+
+@media (max-width: 1190px) and (min-width: 991px) {
+  .English_version .fixed_2 {
+    right: 20.6%;
+  }
+  #navbarDropdown {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,30 @@
+:root {
+  --main-color: #83ad5b;
+  --second-color: #7b7b7b;
+  --text-color: #374767;
+  --transitin: 0.3s ease;
+  --box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.guide .form.text {
+  border-right: 5px solid var(--main-color);
+}
+.guide .box img {
+  max-width: 55px;
+  margin: auto;
+}
+.guide .box .pdf_btn {
+  border: 1px solid var(--main-color);
+  padding: 6px 25px;
+  border-radius: 0;
+  color: var(--main-color);
+  transition: var(--transitin);
+}
+.guide .box .pdf_btn:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+.banner.guide_bnner {
+  background: url("../img/Photo/guide.jpeg");
+  background-position: center;
+  background-size: cover;
+}

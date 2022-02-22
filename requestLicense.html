@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--bootstrap-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <!--font Icon-->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+
+    <!--animate css-->
+    <link rel="stylesheet" href="./css/animate.css" />
+
+    <!--select css-->
+    <link rel="stylesheet" href="./css/bootstrap-select.min.css" />
+
+    <!--accibilty-->
+    <!-- <link rel="stylesheet" href="./css/accesibility.css" /> -->
+    <!--main css-->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>طلب ترخيص</title>
+  </head>
+  <body class="arabic_version">
+    <!--main header-->
+    <section>
+      <!--first header-->
+      <header class="first_header bg-light sticky">
+        <div class="container pl-md-0">
+          <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <a
+              class="navbar-brand first_logo m-0 d-none d-md-none d-lg-block"
+              href="#"
+              ><img src="./img/Photo/logo2.png" class="img-fluid" alt="" />
+            </a>
+
+            <div>
+              <ul class="navbar-nav center_div">
+                <li class="nav-item">
+                  <a
+                    class="nav-link login-button"
+                    href="#"
+                    data-toggle="modal"
+                    data-target="#loginModal"
+                    >تسجيل دخول</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link register-button"
+                    href="#"
+                    data-toggle="modal"
+                    data-target="#registerModal"
+                    >طلب ترخيص</a
+                  >
+                </li>
+                <li class="nav-item language-button">
+                  <a class="nav-link" href="./requestLicense-en.html"></a>
+                </li>
+                <li class="nav-item search-button">
+                  <a class="nav-link" href="./search.html"></a>
+                </li>
+              </ul>
+            </div>
+            <a class="navbar-brand second_logo mr-auto" href="#"
+              ><img src="./img/Photo/logo1.png" class="img-fluid" alt="" />
+            </a>
+          </nav>
+        </div>
+      </header>
+      <!--first header-->
+
+      <!--second header-->
+      <header class="second_header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="toggler-icon top-bar"></span>
+              <span class="toggler-icon middle-bar"></span>
+              <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse stic" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown bg_green">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    عن الوحدة
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div
+                    class="dropdown-menu first_menu"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <a class="dropdown-item" href="#">نبذه عن الوحدة</a>
+                    <a class="dropdown-item" href="#"
+                      >الرسالة و الرؤية و الأهداف</a
+                    >
+
+                    <a class="dropdown-item" href="#"
+                      >الهيكل التنظيمي والوظيفي للوحدة</a
+                    >
+                    <a class="dropdown-item" href="#">رؤساء الوحدة</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    اللوائح والمنشورات
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div
+                    class="dropdown-menu first_menu"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <a class="dropdown-item" href="#">اللوائح </a>
+
+                    <div class="dropdown drop-down2">
+                      <a
+                        class="dropdown-item dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        المنشورات
+                        <i class="fas fa-chevron-left"></i>
+                        <i class="fas fa-plus"></i>
+                      </a>
+                      <div
+                        class="dropdown-menu sub-menu2"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <a class="dropdown-item" href="#">المنشورات السارية</a>
+                        <a class="dropdown-item" href="#">أرشيف المنشورات</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    السياسات
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div
+                    class="dropdown-menu first_menu"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <a class="dropdown-item" href="#">سياسة 1</a>
+                    <a class="dropdown-item" href="#">سياسة 2</a>
+
+                    <a class="dropdown-item" href="#">سياسة 3</a>
+                    <a class="dropdown-item" href="#">سياسة 4</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    مؤشرات آداء القطاع
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div
+                    class="dropdown-menu first_menu"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <a class="dropdown-item" href="#">المؤشرات المالية</a>
+                    <a class="dropdown-item" href="#">مؤشرات....</a>
+
+                    <a class="dropdown-item" href="#">مؤشرات....</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!--second header-->
+    </section>
+    <!--main header-->
+
+    <!--banner section-->
+    <section class="banner">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 banner_text">
+            <h3>طلب الترخيص</h3>
+            <p>قم باختيار واحد من نماذج الويب أدناه :</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--banner section-->
+
+    <!--request_license section-->
+    <section class="request_license mt-3 mt-md-0 mb-5 p-2">
+      <div class="container pl-md-4 pr-md-0">
+        <div class="row first_row mb-5 justify-content-center">
+          <div class="col-md-6 col-lg-4 mb-2 px-3 wow fadeInUp" type="button">
+            <div class="button_div box bg-white">
+              <div class="row">
+                <div class="col-9 p-4 text-center">
+                  <h5 class="user-select-none">تصديق جديد</h5>
+                </div>
+                <div
+                  class="
+                    col-3
+                    bg_green
+                    icon_rotate
+                    text-white text-center
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    fill="currentColor"
+                    class="bi bi-plus-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-2 px-3 wow fadeInUp" type="button">
+            <div class="button_div box bg-white">
+              <div class="row">
+                <div class="col-9 p-4 text-center">
+                  <h5 class="user-select-none">تجديد ترخيص</h5>
+                </div>
+                <div
+                  class="
+                    col-3
+                    bg_green
+                    icon_rotate
+                    text-white text-center
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    fill="currentColor"
+                    class="bi bi-plus-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-2 px-3 wow fadeInUp" type="button">
+            <div class="button_div box bg-white">
+              <div class="row">
+                <div class="col-9 p-4 text-center">
+                  <h5 class="user-select-none">إجراءات تغيير غرض</h5>
+                </div>
+                <div
+                  class="
+                    col-3
+                    bg_green
+                    icon_rotate
+                    text-white text-center
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    fill="currentColor"
+                    class="bi bi-plus-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="second_row mt-5 mb-5 wow fadeInUp">
+          <div class="col-12 pr-md-0">
+            <h5>ما هو لوريم ايبسوم؟</h5>
+            <p class="text-muted">
+              لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي
+              الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان
+              لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر
+              عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من
+              نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون
+              من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله
+              الأصلي في الطباعة والتنضيد الإلكتروني. انتشر بشكل كبير في ستينيّات
+              هذا القرن مع إصدار رقائق "ليتراسيت" (Letraset) البلاستيكية تحوي
+              مقاطع من هذا النص، وعاد لينتشر مرة أخرى مؤخراَ مع ظهور برامج النشر
+              الإلكتروني
+            </p>
+          </div>
+        </div>
+        <div class="third_row wow fadeInUp" style="display: none">
+          <div class="col-12 pr-md-0">
+            <h4>إجراءات ترخيص جديد لمؤسسات التمويل الأصغر والصغير والمظلية:</h4>
+          </div>
+          <div class="row progress_step my-4 justify-content-center">
+            <div class="col-md-4 mb-2 first">
+              <div class="number first_step mb-3"><h4>1</h4></div>
+              <div class="card text-center">
+                <img class="card-img-top" src="./img/Photo/svg1.png" alt="" />
+                <div class="card-body pt-0 pb-1">
+                  <h4 class="card-title small">تقديم طلب إنشاء مؤسسة جديدة</h4>
+                  <p class="card-text small text-muted mb-0">
+                    - إجراءات الحصول على التصديق المبدئي
+                  </p>
+                  <p class="card-text small text-muted">
+                    - منح شهادة التصديق المبدئي / رفض منح المؤسسة شهادة التصديق
+                    المبدئي
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-2 second">
+              <div class="number second_step mb-3"><h4>2</h4></div>
+              <div class="card text-center">
+                <img class="card-img-top" src="./img/Photo/svg2.png" alt="" />
+                <div class="card-body pt-0 pb-1">
+                  <h4 class="card-title small">
+                    تقديم مطلوبات التصديق النهائي
+                  </h4>
+                  <p class="card-text small text-muted mb-0">
+                    - إجراءات الحصول على التصديق المبدئي
+                  </p>
+                  <p class="card-text small text-muted">
+                    - منح شهادة التصديق المبدئي / رفض منح المؤسسة شهادة التصديق
+                    المبدئي
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-2 third">
+              <div class="number third_step mb-3"><h4>3</h4></div>
+              <div class="card text-center">
+                <img class="card-img-top" src="./img/Photo/svg3.png" alt="" />
+                <div class="card-body pt-0 pb-1">
+                  <h4 class="card-title small">توفير مطلوبات إذن مزاولة</h4>
+                  <p class="card-text small text-muted mb-0">
+                    - إجراءات الحصول على التصديق المبدئي
+                  </p>
+                  <p class="card-text small text-muted">
+                    - منح شهادة التصديق المبدئي / رفض منح المؤسسة شهادة التصديق
+                    المبدئي
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="progress"></div>
+            <div class="progress_2"></div>
+          </div>
+          <div class="row form_row">
+            <div class="col-12 mb-2">
+              <h6>طلب تسجيل مبدئى لمؤسسة تمويل اصغر:</h6>
+            </div>
+
+            <div class="col-12">
+              <form>
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label for="message" class="small">
+                      إسم المؤسسة
+                      <span style="color: red; font-size: 18px">*</span>
+                    </label>
+                    <input type="text" class="form-control bg-light" />
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="message" class="small">
+                      رقم الهاتف
+                      <span style="color: red; font-size: 18px">*</span>
+                    </label>
+                    <input type="tel" class="form-control bg-light" />
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="message" class="small">
+                      العنوان
+                      <span style="color: red; font-size: 18px">*</span>
+                    </label>
+                    <input type="text" class="form-control bg-light" />
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="message" class="small">
+                      رقم الفاكس
+                      <span style="color: red; font-size: 18px">*</span>
+                    </label>
+                    <input type="text" class="form-control bg-light" />
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="message" class="small">
+                      العنوان البريدي
+                      <span style="color: red; font-size: 18px">*</span>
+                    </label>
+                    <input type="text" class="form-control bg-light" />
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="message" class="small">
+                      البريد الإلكتروني
+                      <span style="color: red; font-size: 18px">*</span>
+                    </label>
+                    <input type="email" class="form-control bg-light" />
+                  </div>
+                  <div class="col-12 px-3 mb-3">
+                    <div class="box pb-3">
+                      <div class="col-12 py-3">
+                        <h6>طبيعة التسجيل المطلوب ( ضع علامة √)</h6>
+                        <hr />
+                      </div>
+                      <div class="col-12">
+                        <div class="row">
+                          <div class="col-md-6 mb-4">
+                            <div class="mb-3 small font-weight-bold">
+                              تقبل الودائع وترغب في تقديم خدمات التمويل الأصغر
+                              للجمهور.
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check5" />
+                              <label for="check5" class="small">
+                                مؤسسة تمويل اصغر</label
+                              >
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check6" />
+                              <label for="check6" class="small"> اتحادية</label>
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check7" />
+                              <label for="check7" class="small"> ولائية</label>
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check8" />
+                              <label for="check8" class="small"> محلية</label>
+                            </div>
+                          </div>
+
+                          <div class="col-md-6 mb-4">
+                            <div class="mb-3 small font-weight-bold">
+                              تقبل الودائع وترغب في تقديم خدمات التمويل الأصغر
+                              للأعضاء فقط .
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check2-5" />
+                              <label for="check2-5" class="small">
+                                مؤسسة تمويل اصغر</label
+                              >
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check2-6" />
+                              <label for="check2-6" class="small">
+                                اتحادية</label
+                              >
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check2-7" />
+                              <label for="check2-7" class="small">
+                                ولائية</label
+                              >
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check2-8" />
+                              <label for="check2-8" class="small"> محلية</label>
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-4">
+                            <div class="mb-3 small font-weight-bold">
+                              لا تقبل الودائع وترغب في تقديم خدمات التمويل
+                              الأصغر للجمهور.
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check1" />
+                              <label for="check1" class="small">
+                                مؤسسة تمويل اصغر</label
+                              >
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check2" />
+                              <label for="check2" class="small"> اتحادية</label>
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check3" />
+                              <label for="check3" class="small"> ولائية</label>
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check4" />
+                              <label for="check4" class="small"> محلية</label>
+                            </div>
+                          </div>
+
+                          <div class="col-md-6 mb-4">
+                            <div class="mb-3 small font-weight-bold">
+                              لا تقبل الودائع وترغب في تقديم خدمات التمويل
+                              الأصغر للأعضاء فقط .
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check2-1" />
+                              <label for="check2-1" class="small">
+                                مؤسسة تمويل اصغر</label
+                              >
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check2-2" />
+                              <label for="check2-2" class="small">
+                                اتحادية</label
+                              >
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check2-3" />
+                              <label for="check2-3" class="small">
+                                ولائية</label
+                              >
+                            </div>
+                            <div class="mb-2">
+                              <input type="checkbox" id="check2-4" />
+                              <label for="check2-4" class="small"> محلية</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 px-3 mb-3">
+                    <div class="box pb-3">
+                      <div class="col-12 py-3">
+                        <h6>المساهمون الاساسيون فى المؤسسة</h6>
+                        <hr />
+                      </div>
+                      <div class="col-12">
+                        <div class="row">
+                          <div class="col-md-6 mb-3">
+                            <label for="message" class="small"> الاسم </label>
+                            <input type="text" class="form-control bg-light" />
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="message" class="small"> الجنسية </label>
+                            <input type="text" class="form-control bg-light" />
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="message" class="small">
+                              عنوان السكن
+                            </label>
+                            <input type="text" class="form-control bg-light" />
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="message" class="small">
+                              عنوان العمل
+                            </label>
+                            <input type="text" class="form-control bg-light" />
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="message" class="small"> التوقيع </label>
+                            <input type="text" class="form-control bg-light" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 px-3 mb-3">
+                    <a class="nav-link add_button" href="#">أضف عنصرا آخر</a>
+                  </div>
+                  <div class="col-12 mb-3">
+                    <h6>رأس مال المؤسسة:</h6>
+                  </div>
+                  <div class="col-12 mb-3">
+                    <div class="row">
+                      <div class="col-md-6 mb-3">
+                        <label for="message" class="small">
+                          (أ) رأس المال المقترح
+                        </label>
+                        <input type="text" class="form-control bg-light" />
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="message" class="small">
+                          (ب) أذكر مصدر رأس المال
+                        </label>
+                        <input type="text" class="form-control bg-light" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 mb-3">
+                    <h6>
+                      فى حالة الشخصيات الفردية يرجى ارفاق المستندات التالية مع
+                      طلب تسجيل المؤسسة*:
+                    </h6>
+                    <p class="small mb-0">
+                      1- الصحيفة الجنائية ، على أن لا يعود تاريخها لأكثر من
+                      ثلاثة أشهر من تاريخ تقديم الطلب.
+                    </p>
+                    <p class="small">2- المستندات الثبوتية لكل من المؤسسين</p>
+                  </div>
+                  <div class="col-12 mb-2">
+                    <h6>
+                      المستندات المتعلقة بمؤسسى مؤسسة التمويل الاصغر فى حالة
+                      الشخصيات الاعتبارية:*:
+                    </h6>
+                    <p class="small mb-0">1- عقد ولائحة التأسيس</p>
+                    <p class="small mb-0">2- شهادة التسجيل</p>
+                    <p class="small">3- آخر ميزانية مراجعة وقائمة الدخل</p>
+                  </div>
+                  <div class="col-12 file px-3 mb-2">
+                    <label class="custom-file-upload">
+                      <input type="file" />
+                      إرفاق ملف
+                      <i class="fas fa-paperclip"></i>
+                    </label>
+                  </div>
+                  <div class="col-12 mb-3">
+                    <div class="row">
+                      <div class="col-12">
+                        <h6>
+                          فى حالة مؤسسات التمويل الاصغر المملوكة لجهة اجنبية*:
+                        </h6>
+                        <p class="small">
+                          ( وذلك اذا كان اكثر من 50% من اسهم المؤسسة مملوكة لغير
+                          السودانيين او لمؤسسات مسجلة خارج السودان وجزء من
+                          المجموعة العالمية للتمويل الاصغر).
+                        </p>
+                      </div>
+                      <div class="col-12">
+                        <label class="small">
+                          1- شهادة من السلطات التنظيمية التى تحكم التمويل الاصغر
+                          فى دولة مقر رئاسة المؤسسة تؤكد بأن مؤسسة التمويل
+                          الاصغر قد تم انشاؤها على الوجه المطلوب بموجب القانون:
+                        </label>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control bg-light" />
+                      </div>
+                      <div class="col-12 mb-2">
+                        <label class="small">
+                          2- موافقة مجلس ادارة مؤسسة التمويل الاصغر على انشاء
+                          فرع فى السودان
+                        </label>
+                        <label class="small">
+                          3- أذكر الجهة التى تقوم بالرقابة على المجموعة وما اذا
+                          كانت الجهة الرقابية على علم بخطة مقدم الطلب للعمل فى
+                          السودان
+                        </label>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control bg-light" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 px-3 mb-3">
+                    <div class="box pb-3">
+                      <div class="col-12 py-3">
+                        <h6>
+                          بهذا أشهد بأن كل المعلومات الواردة بهذه الاستمارة
+                          صحيحة وحقيقية:
+                        </h6>
+                        <hr />
+                      </div>
+                      <div class="col-12">
+                        <div class="row">
+                          <div class="col-md-6 mb-3">
+                            <label for="message" class="small"> الاسم </label>
+                            <input type="text" class="form-control bg-light" />
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="message" class="small"> التوقيع </label>
+                            <input type="text" class="form-control bg-light" />
+                          </div>
+                          <div class="col-12 mb-3">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="row">
+                                  <div class="col-12">
+                                    <label for="message" class="small">
+                                      التاريخ
+                                    </label>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <select
+                                      class="selectpicker w-100 bg-light"
+                                      title="الشهر"
+                                    >
+                                      <option>Mustard</option>
+                                      <option>Ketchup</option>
+                                      <option>Relish</option>
+                                    </select>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <select
+                                      class="selectpicker w-100 bg-light"
+                                      title="اليوم"
+                                    >
+                                      <option>Mustard</option>
+                                      <option>Ketchup</option>
+                                      <option>Relish</option>
+                                    </select>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <select
+                                      class="selectpicker w-100 bg-light"
+                                      title="السنة"
+                                    >
+                                      <option>Mustard</option>
+                                      <option>Ketchup</option>
+                                      <option>Relish</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="message" class="small"> الختم </label>
+                            <input type="text" class="form-control bg-light" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="mb-3 pb-4">
+                      <div class="col-12 bg-light px-2 py-1">
+                        <h6>كلمة التحقق</h6>
+                      </div>
+                      <hr />
+                      <div class="col-md-6">
+                        <p class="small text-muted">
+                          هذا السؤال لاختبار ما إذا كنت زائرًا بشريًا أم لا
+                          ولمنع عمليات إرسال البريد العشوائي الآلية.
+                        </p>
+                        <img
+                          src="./img/Photo/image_captcha.jpeg"
+                          class="mb-3 border"
+                          alt=""
+                        />
+                        <p class="small">أدخل الرموز التي تظهر في الصورة:</p>
+                      </div>
+
+                      <div class="col-md-6">
+                        <input
+                          type="text"
+                          id="name"
+                          class="form-control"
+                          placeholder="ادخل الرمز هنـا"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="mb-2">
+                        <input
+                          type="submit"
+                          class="btn bg_green text-white px-5"
+                          value="ارسال"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--request_license section-->
+
+    <!--contact footer-->
+    <section class="contact_footer bg_green py-2">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4 col-sm-6 mb-sm-3 mb-md-0 mb-lg-0">
+            <a href="#">
+              <img src="./img/Photo/phone-icon.png" class="img-fluid" alt="" />
+              <span>000000000</span>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-sm-3 mb-md-0 mb-lg-0">
+            <a href="#">
+              <img src="./img/Photo/email-icon.png" class="img-fluid" alt="" />
+              <span>example@mail.com</span>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <a href="#">
+              <img
+                src="./img/Photo/location-icon.png"
+                class="img-fluid"
+                alt=""
+              />
+              <span>street 1-1</span>
+            </a>
+          </div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </section>
+    <!--contact footer-->
+
+    <!--footer-->
+    <footer class="main_footer py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <aside class="footer_wedgit">
+              <ul>
+                <li>
+                  <a href="">قانون بنك السودان المركزي</a>
+                </li>
+                <li>
+                  <a href="">قانون تنظيم العمل المصرفي</a>
+                </li>
+                <li>
+                  <a href="">معرض الصور</a>
+                </li>
+              </ul>
+            </aside>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <aside class="footer_wedgit">
+              <ul>
+                <li>
+                  <a href="">حقوق النشر وحدود المسؤولية</a>
+                </li>
+                <li>
+                  <a href="">مواقع ذات صلة</a>
+                </li>
+                <li>
+                  <a href="">الشكاوي والاقتراحات</a>
+                </li>
+              </ul>
+            </aside>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <aside class="footer_wedgit">
+              <ul>
+                <li>
+                  <a href="">الأخبار</a>
+                </li>
+                <li>
+                  <a href="">النشرة البريدية</a>
+                </li>
+                <li>
+                  <a href="">الأسئلة المتكررة</a>
+                </li>
+              </ul>
+            </aside>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <aside class="footer_wedgit">
+              <address>
+                <h5>تواصل معنا</h5>
+                <p>هناك حقيقة مثبتة منذ زمن طويل وهي.</p>
+                <form>
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control form-control-sm bg-light border-1"
+                      placeholder="البريد الالكتروني"
+                      aria-label="Example text with button addon"
+                      aria-describedby="button-addon1"
+                    />
+                    <div class="input-group-prepend">
+                      <button
+                        class="btn btn-outline-secondary btn-sm"
+                        type="submit"
+                        id="button-addon1"
+                      ></button>
+                    </div>
+                  </div>
+                </form>
+                <div class="social">
+                  <a href="" class="icon"><i class="fab fa-facebook-f"></i></a>
+                  <a href="" class="icon"><i class="fab fa-instagram"></i></a>
+                  <a href="" class="icon"><i class="fab fa-twitter"></i></a>
+                </div>
+              </address>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--footer-->
+
+    <!--copy right footer-->
+    <section class="copy py-2">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <p class="small m-0">
+              طوّر بواسطة <span><a href="#">dot.jo</a></span> جميع الحقوق محفوظة
+              © 2021
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--copy right footer-->
+
+    <!--logIn modal-->
+    <div
+      class="modal fade"
+      id="loginModal"
+      tabindex="-1"
+      aria-labelledby="loginModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center">
+              <div class="col-8 text-center user_row">
+                <div class="user_img mx-auto mb-3">
+                  <i class="far fa-user"></i>
+                </div>
+
+                <h5>تسجيل دخول</h5>
+                <p class="text-muted small">
+                  هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم:
+                </p>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-10">
+                <form>
+                  <div class="mb-3">
+                    <label class="small">اسم االمستخدم</label>
+                    <input type="text" class="form-control" required />
+                  </div>
+                  <div class="mb-3">
+                    <label class="small">كلمه السر</label>
+                    <input type="password" class="form-control" required />
+                  </div>
+                  <div class="mb-3">
+                    <div class="row">
+                      <div class="col-6 d-flex align-items-center">
+                        <input type="checkbox" id="check" />
+                        <label for="check" class="mb-0 mr-2">تذكرني</label>
+                      </div>
+                      <div class="col-6 d-flex justify-content-end">
+                        <input
+                          type="submit"
+                          class="log_in"
+                          value="تسجيل دخول"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                </form>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-10">
+                <p class="small pass_forget mt-2">
+                  هل نسيت كلمة السر؟ <a href="#"> إسترجاع كلمة المرور </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Register modal-->
+    <div
+      class="modal fade"
+      id="registerModal"
+      tabindex="-1"
+      aria-labelledby="registerModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center">
+              <div class="col-8 text-center user_row mb-0">
+                <div class="user_img mx-auto mb-3">
+                  <i class="far fa-user"></i>
+                </div>
+
+                <h5>إنشاء حساب</h5>
+                <p class="text-muted small mb-0">
+                  أدخل المعلومات الخاصة بك أدناه
+                </p>
+              </div>
+              <div class="col-10 mt-0 justify-content-center text-center">
+                <hr class="" />
+              </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-10">
+                <form>
+                  <div class="mb-2">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label class="small">اسم المستخدم الأول</label>
+                        <input
+                          type="text"
+                          class="form-control form-control-sm"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <label class="small">اسم المستخدم الثاني</label>
+                        <input
+                          type="text"
+                          class="form-control form-control-sm"
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-2">
+                    <label class="small">البريد الإلكتروني</label>
+                    <input
+                      type="email"
+                      class="form-control form-control-sm"
+                      required
+                    />
+                  </div>
+                  <div class="mb-2">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label class="small">البلد</label>
+                        <input
+                          type="text"
+                          class="form-control form-control-sm"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <label class="small">المدينة</label>
+                        <input
+                          type="text"
+                          class="form-control form-control-sm"
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label class="small">كلمه السر</label>
+                    <input
+                      type="password"
+                      class="form-control form-control-sm"
+                      required
+                    />
+                  </div>
+                  <div class="mb-2">
+                    <div class="row">
+                      <div class="col-6 d-flex align-items-center">
+                        <input type="checkbox" id="check" />
+                        <label for="check" class="mb-0 mr-2 small"
+                          >أوافق على جميع الشروط والأحكام</label
+                        >
+                      </div>
+                      <div class="col-6 d-flex justify-content-end">
+                        <input
+                          type="submit"
+                          class="log_in"
+                          value="إنشاء حساب"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--sticky icon-->
+    <ul class="sticky_icons wow fadeInUp">
+      <li class="mb-5 bg_green box">
+        <a href="#" class="stick_icon"><i class="fas fa-wheelchair"></i></a>
+      </li>
+      <li class="mb-2 bg_green box">
+        <a href="#" class="stick_icon text-white">
+          <i class="fas fa-envelope-open-text"></i>
+        </a>
+      </li>
+      <li class="mb-2 bg_green box">
+        <a href="#" class="stick_icon text-white">
+          <i class="fas fa-file-alt"></i>
+        </a>
+      </li>
+      <li class="mb-2 bg_green box">
+        <a href="#" class="stick_icon text-white">
+          <i class="fas fa-headphones-alt"></i>
+        </a>
+      </li>
+      <li class="mb-2 bg_green box">
+        <a href="#" class="stick_icon text-white">
+          <i class="fas fa-fax"></i>
+        </a>
+      </li>
+    </ul>
+    <!--sticky icon-->
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/dropdown.js"></script>
+    <script src="./js/toggler.js"></script>
+    <script src="./js/animate.js"></script>
+    <script src="./js/bootstrap-select.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".button_div").click(function () {
+          $(this).each(function (i) {
+            $(this).toggleClass("icon_rotate_style");
+            $(".third_row").toggle();
+            $(".second_row").toggle();
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

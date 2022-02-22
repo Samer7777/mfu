@@ -1,0 +1,22 @@
+:root {
+  --main-color: #83ad5b;
+  --second-color: #7b7b7b;
+  --text-color: #374767;
+  --transitin: 0.3s ease;
+  --box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.contact_info i {
+  color: var(--main-color);
+  font-size: 20px;
+}
+.banner.contact_banner {
+  background: url("../img/Photo/banner1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.contact form .box {
+  box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.1);
+}
+.contact form .box ::placeholder {
+  font-size: 10px;
+}
